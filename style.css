@@ -1,25 +1,8 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 
-ol,
-ul {
-  list-style: none;
-}
 
-body {
-  line-height: 1.5;
-  font-family: "arial", "sans-serif";
-  background-color: #1f1f1f;
-}
 
-/* #wrapper {
-  width: 1000px;
-} */
+
+
 
 #header {
   background-color: white;
@@ -116,6 +99,11 @@ h3 {
   color: olive;
   padding: 5px 10px;
 }
+ol,
+ul {
+  list-style: none;
+}
+
 
 
 .box {
@@ -126,6 +114,8 @@ h3 {
   margin: 10px 0px 10px 20px;
   font-size: 10px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .box p {
@@ -135,7 +125,7 @@ h3 {
 .box a {
   float: right;
   margin-right: 15px;
-  background-color: orange;
+  background-color: yellow;
   color: black;
   text-decoration: none;
   padding: 2px 8px 5px 9px;
@@ -146,4 +136,19 @@ h3 {
 }
 .image{
 width: 223px;
+}
+.navbar{
+padding: 20px;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1.5;
+  font-family: "arial", "sans-serif";
+  background-color: #1f1f1f;
 }
