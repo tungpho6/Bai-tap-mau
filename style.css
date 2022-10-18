@@ -1,10 +1,4 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+
 
 ol,
 ul {
@@ -132,6 +126,18 @@ h3 {
   margin: 5px 10px;
 }
 
+
+.image{
+width: 223px;
+}
+* 
+{
+  padding: 0px;
+  margin: 0px;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 .box a {
   float: right;
   margin-right: 15px;
@@ -143,7 +149,4 @@ h3 {
   border-radius: 5px;
   border-bottom-right-radius: 180px;
   border-top-right-radius: 180px;
-}
-.image{
-width: 223px;
 }
